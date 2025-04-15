@@ -4,20 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/d50d610183.js" crossorigin="anonymous"></script>
     <title>Уроки гри на гітарі</title>
     <meta name="description" content="Уроки гри на гітарі для початківців" />
     <meta name="keywords" content="гітара, уроки, акорди, табулатури" />
-
   </head>
   <body>
-   <div class="main-section">
-    <div class="container">
-      <header>
-        <a href="#">
-          <img src="img/лого.png" alt="">
-        </a>
-      </header>
+    <!-- Перша секція -->
+    <div class="main-section">
+      <div class="container main-section__nav-container">
+        <!-- Меню навігації -->
+        <header class="main-section__header">
+          <a href="#">
+            <img class="main-section__logo" src="icons/logo.svg" alt="" />
+          </a>
+        </header>
+        <nav class="main-section__nav nav-menu">
+          <ul class="nav-menu__list">
+            <li class="nav-menu__list-item">Про мене</li>
+            <li class="nav-menu__list-item">Заняття</li>
+            <li class="nav-menu__list-item">Запис</li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="container main-section__content-container">
+        <!-- Ліва частина контейнера -->
+        <div class="left-wrapper">
+          <img class="left-wrapper__img" src="img/Фото гитариста.png" alt="фото гітариста" />
+          <div class="left-wrapper__rectangle-blue"></div>
+          <div class="left-wrapper__rectangle-orange"></div>
+          <div class="left-wrapper__rectangle-gray"></div>
+        </div>
+        <!-- Права частина контейнера -->
+        <div class="right-wrapper">
+          <div class="right-wrapper__icons-box icons">
+            <div class="icons__item">
+              <i class="fa-brands fa-skype"></i>
+            </div>
+            <div class="icons__item">
+              <i class="fa-brands fa-vk"></i>
+            </div>
+            <div class="icons__item">
+              <i class="fa-brands fa-telegram"></i>
+            </div>
+            <div class="icons__item">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-   </div>
   </body>
 </html>
